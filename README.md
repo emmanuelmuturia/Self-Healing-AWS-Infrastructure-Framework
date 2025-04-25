@@ -11,3 +11,5 @@ The Self Healing AWS Infrastructure is a Site Reliability Engineering [SRE]-base
 5. [Credits](#Credits)
 6. [Trivia](#Trivia)
 7. [Future](#Future)
+
+## Backgro also coupled with my curiosity in the context of integrating the AWS Infarstructure with Monitoring & Visualisation T "heals" the AWS Infrastructure by restoring the EC2 Instance during a failure through AWS Simple Notification Service [SNS] Alerts...
