@@ -5,3 +5,6 @@ terraform.tfstate.backup
 .terraform.tfstate.lock.info
 emmanuelmuturia.pem
 monitor.log
+/logs
+/terraform_extras
+/security
