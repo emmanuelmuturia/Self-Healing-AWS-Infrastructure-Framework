@@ -359,6 +359,18 @@ crontab -e
 */7 * * * * cd /your/project/directory && python3 <filename>.py >> <name_of_log_file_you_can_create>.log 2>&1
 ```
 
+- Simulate a failure in your EC2 Instance using the following command after you SSH into your EC2 Instance if you had logged out:
+
+```bash
+sudo systemctl stop amazon-ssm-agent
+```
+
+- Manually run the Python script...
+
+- It should detect the broken instance...
+
+- It will: Terminate it, Run `terraform apply` to recreate it, and Send a notification via AWS SNS...
+
 - That is all...
 
 ## Credits
