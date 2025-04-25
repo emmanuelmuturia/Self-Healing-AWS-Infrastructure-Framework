@@ -12,4 +12,30 @@ The Self Healing AWS Infrastructure is a Site Reliability Engineering [SRE]-base
 6. [Trivia](#Trivia)
 7. [Future](#Future)
 
-## Backgro also coupled with my curiosity in the context of integrating the AWS Infarstructure with Monitoring & Visualisation T "heals" the AWS Infrastructure by restoring the EC2 Instance during a failure through AWS Simple Notification Service [SNS] Alerts...
+## Background
+
+- The Self-Healing AWS Infrastructure was conceived by my curiosity to integrate an AWS Infrastructure with a custom Terraform configuration and Monitoring & Visualisation Tools: Prometheus, Node Exporter, and Grafana...
+
+## Architecture
+
+- Here is The Architectural Diagram that represents the project's architecture:
+
+
+## Setup
+
+- To set up and reproduce this project, please follow these steps:
+
+
+## Credits
+
+- The Self-Healing AWS Infrastructure was made possible thanks to the following Tools & Technologies:
+
+
+## Trivia
+
+- This project mimics an SRE environment and can be used to simulate the tasks that would be typically encountered in a similar role...
+
+## Future
+
+- Further developments will be implemented as the project is still a work in progress...
+- Feel free to customise it to your preferences and get your hands dirty...
