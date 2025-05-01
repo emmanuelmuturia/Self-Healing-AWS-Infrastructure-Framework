@@ -1,5 +1,7 @@
 # The Self-Healing AWS Infrastructure
 
+![The Conceptual Framework](../diagrams/conceptual_framework.png)
+
 The Self Healing AWS Infrastructure is a Site Reliability Engineering [SRE]-based project. It consists of a Python Script and Terraform configuration which work together with an AWS EC2 Instance to "heal" the EC2 Instance during downtime by re-deploying it with the pre-existing configurations...
 
 ## Table of Contents
@@ -20,6 +22,7 @@ The Self Healing AWS Infrastructure is a Site Reliability Engineering [SRE]-base
 
 - Here is The Architectural Diagram that represents the project's architecture:
 
+![The Architecture Diagram](../diagrams/architecture_diagram.png)
 
 ## Setup
 
